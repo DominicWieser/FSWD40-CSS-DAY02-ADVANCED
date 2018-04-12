@@ -1,6 +1,7 @@
 header {
 	text-align: center;
 	width: 100%;
+	max-width: 175px;
 }
 
 nav {
@@ -26,6 +27,13 @@ div.feature {
 	width: 100%;
 	border: 1px solid red;
 	margin-top: 10px;
+	background-color: lightgray;
+	background-image: url("data:image/jpeg;base64,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"), url("https://developer.apple.com/assets/elements/icons/app-store/app-store-128x128_2x.png");
+    background-repeat: no-repeat , no-repeat;
+    padding-top: 200px;
+  
+
+
 }
 
 div.left {
@@ -58,12 +66,26 @@ div.right {
 }
 
 footer {
-	text-align: center;
 	border: 1px solid red;
 	width: 100%;
 	clear: both;
 }
 
 h2 {
+	text-align: center;
+}
+span.align-left{
+	width: 30%;
+	text-align: left;
+}
+span.align-right {
+	width: 30%;
+	text-align: right ;
+}
+span.align-center ul li {
+	display: inline;
+}
+span.align-center {
+	width: 30%;
 	text-align: center;
 }
