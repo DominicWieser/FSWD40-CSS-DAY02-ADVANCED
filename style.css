@@ -74,17 +74,25 @@ footer {
 h2 {
 	text-align: center;
 }
+
 span.align-left{
 	width: 30%;
 	text-align: left;
 }
+
 span.align-right {
 	width: 30%;
 	text-align: right ;
 }
+
+span.align-center ul {
+	display: inline;
+}
+
 span.align-center ul li {
 	display: inline;
 }
+
 span.align-center {
 	width: 30%;
 	text-align: center;
